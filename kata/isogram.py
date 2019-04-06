@@ -13,5 +13,5 @@ def is_isogram(string):
 
 
 if __name__ == "__main__":
-    testVal = 'tsil'
+    testVal = "tsil"
     print(is_isogram(testVal))
