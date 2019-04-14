@@ -1,5 +1,6 @@
 from kata.consec_strings import longest_consec
 
+
 def test_consec_strings():
     expected = "abigailtheta"
     consec = ["zone", "abigail", "theta", "form", "libe", "zas", "theta",

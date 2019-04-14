@@ -1,5 +1,6 @@
 from kata.name_list import namelist
 
+
 def test_bart_lisa_maggie():
     names = [
         {"name": "Bart"},
@@ -9,15 +10,18 @@ def test_bart_lisa_maggie():
     expected = "Bart, Lisa & Maggie"
     assert expected == namelist(names)
 
+
 def test_empty_string():
     names = [{"name": ""}]
     expected = ""
     assert expected == namelist(names)
 
+
 def test_single_name():
     names = [{"name": "Bart"}]
     expected = "Bart"
     assert expected == namelist(names)
+
 
 def test_two_names():
     names = [{"name": "Bart"}, {"name": "Lisa"}]

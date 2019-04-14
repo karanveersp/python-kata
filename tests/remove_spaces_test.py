@@ -1,10 +1,11 @@
-import unittest
 from kata.remove_spaces import no_space
+
 
 def test_1():
     expected = 'nospaces'
     test_input = 'n o   sp  a c   e s'
     assert no_space(test_input) == expected
+
 
 def test_2():
     expected = 'thishasnospaceseither'
