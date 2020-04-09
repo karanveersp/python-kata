@@ -2,11 +2,7 @@ from kata.name_list import namelist
 
 
 def test_bart_lisa_maggie():
-    names = [
-        {"name": "Bart"},
-        {"name": "Lisa"},
-        {"name": "Maggie"}
-    ]
+    names = [{"name": "Bart"}, {"name": "Lisa"}, {"name": "Maggie"}]
     expected = "Bart, Lisa & Maggie"
     assert expected == namelist(names)
 
