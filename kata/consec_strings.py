@@ -5,7 +5,7 @@ def longest_consec(strarr, k):
 
     if k > 0 and k <= n:
         for i in range(n - k + 1):
-            current = "".join(strarr[i: i + k])
+            current = "".join(strarr[i : i + k])
             if len(current) > len(longest):
                 longest = current
 
