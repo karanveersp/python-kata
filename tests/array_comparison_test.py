@@ -1,7 +1,7 @@
 from kata.array_comparison import comp
 
 
-def test__with_valid_input():
+def test_with_valid_input():
     a = [2, 5, 8]
     b = [25, 64, 4]
     assert comp(a, b)
