@@ -1,20 +1,11 @@
 # Python Kata
 
-Create a virtual environment folder in root directory
+## Initialize dev environment
 
-`python -m venv venv`
-
-Activate the virtual environment
-
-`.\venv\Scripts\Activate.ps1`
-
-Install requirements:
-
-`pip install -r requirements.txt`
-
-Run all tests:
-
-`python -m pytest`
+1. Install `Poetry` for package management using [this site](https://python-poetry.org/)
+2. Run `poetry install` to install package dependencies.
+3. Launch virtual env using `poetry shell`
+4. Run tests with `pytest`
 
 Run single test file:
 
