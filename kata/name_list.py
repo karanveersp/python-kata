@@ -9,8 +9,7 @@ def namelist(names) -> str:
         else:
             result = ", ".join([name["name"] for name in names[:-1]])
             result += " & " + names[-1]["name"]
-    except:
+    except IndexError | KeyError:
         result = ""
     finally:
         return result
-

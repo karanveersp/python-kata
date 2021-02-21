@@ -9,5 +9,5 @@ def test_1():
 
 def test_2():
     expected = ["carer", "racer"]
-    values = ['crazer', 'carer', 'racar', 'caers', 'racer']
-    assert anagrams('racer', values) == expected
+    values = ["crazer", "carer", "racar", "caers", "racer"]
+    assert anagrams("racer", values) == expected
